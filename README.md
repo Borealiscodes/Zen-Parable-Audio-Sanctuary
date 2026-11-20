@@ -1,3 +1,6 @@
+> **Archival Research Prototype Notice:** This repository is preserved as an archival proof-of-concept documenting early stages of our accessible contemplative-game research (analyzed in [`DOI: 10.5281/zenodo.24393275`](https://doi.org)). For active development featuring pre-rendered regional neural VITS narration (`en_GB-alan-medium`), one-tap acoustic entry, and 1:1 audio-text parity, see **[`Borealiscodes/Zen-Parable-Embodied-Voice-Edition`](https://github.com)** and **[`DOI: 10.5281/zenodo.24399123`](https://doi.org)**.
+
+
 > ### ✅ RELEASE v1.0.0 — AUDIO-FIRST & LOW-VISION PARABLE SANCTUARY (PROOF OF CONCEPT)
 > **Status:** `v1.0.0` Verified Proof of Concept (`3/3` Tests Passing) • Zero-Float `Q16.16` • Social Model Accessibility (`07` + `08`)  
 > 
