@@ -1,0 +1,10 @@
+{
+  "name": "zen-parable-audio-sanctuary",
+  "version": "1.0.0",
+  "description": "Audio-first, blind- and low-vision-accessible contemplative Zen parable experience with procedural river/wind/water-pour foley, RNIB spatial beacons, 5-cell Unicode Braille radar, and Q16.16 physics.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/sanctuary-kernel.test.mjs"
+  },
+  "license": "MIT"
+}
