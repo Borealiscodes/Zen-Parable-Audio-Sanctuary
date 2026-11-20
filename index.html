@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zen Parable Audio Sanctuary — Audio-First &amp; Low-Vision Koan Experience</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>⛩ Zen Parable Audio Sanctuary <span class="badge">Social Model • Q16.16</span></h1>
+    <div id="hud-stage">Parable 1/4 | Yo Layers: 1/4</div>
+  </header>
+
+  <main class="sanctuary-layout">
+    <section class="garden-panel" aria-label="Sanctuary Courtyard">
+      <div id="aria-narration" class="narration-box" role="status" aria-live="polite">
+        You stand in a quiet cedar courtyard. Two heavy bronze Bonsho bells hang to the west; a solitary Toro stone lantern rests peacefully to the east before the garden gate.
+      </div>
+
+      <div class="braille-strip" aria-label="Unicode Braille Spatial Radar">
+        <span>Braille Spatial Radar:</span>
+        <strong id="braille-radar" class="braille-cells">⠀⠀⠀⠀⣿</strong>
+        <span id="bearing-readout">Solitary Toro Lantern — east (37% proximity)</span>
+      </div>
+
+      <canvas id="sanctuary-canvas" width="640" height="380" role="img" aria-label="High-contrast sanctuary courtyard map showing your position and geometric parable nodes"></canvas>
+
+      <div class="controls-grid">
+        <button id="btn-chime" class="primary-btn">🔔 Chime / Interact (Space)</button>
+        <button id="btn-release" class="primary-btn">🍃 Release / Pour (R)</button>
+        <button id="btn-listen" class="primary-btn">👂 Listen Around (L)</button>
+      </div>
+
+      <div class="dpad-row" aria-label="Directional Movement Controls">
+        <button id="btn-left">◀ West (A)</button>
+        <button id="btn-up">▲ North (W)</button>
+        <button id="btn-down">▼ South (S)</button>
+        <button id="btn-right">▶ East (D)</button>
+      </div>
+    </section>
+
+    <aside class="story-panel" aria-label="Parable Contemplation & Soundscape Controls">
+      <div class="parable-frame">
+        <strong id="parable-title">Parable I: The Sound of One Hand (Master Hakuin)</strong>
+        <blockquote id="parable-quote">“Two hands clap and there is a sound. What is the sound of one hand?”</blockquote>
+        <div id="foley-summary" class="foley-note">Soundscape: High cedar mountain breeze and distant bronze temple acoustics.</div>
+        <div id="music-layer" class="layer-pill">Layer 1: Breath of the Shakuhachi Flute (D4)</div>
+      </div>
+
+      <h2>Soundscape &amp; Sensory Settings</h2>
+      <div class="settings-stack">
+        <button id="btn-audio">Sound: Muted</button>
+        <button id="btn-speech">🗣️ Spoken Narration: OFF</button>
+        <button id="btn-pacing">Pacing: 1.0x Normal</button>
+      </div>
+
+      <h2>Contemplation Receipt (SHA-256)</h2>
+      <button id="btn-receipt">Mint Stillness Receipt</button>
+      <textarea id="receipt-output" rows="6" readonly aria-label="SHA-256 contemplation receipt"></textarea>
+    </aside>
+  </main>
+
+  <script type="module" src="src/sanctuary-app.js"></script>
+</body>
+</html>
